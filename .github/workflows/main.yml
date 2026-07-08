@@ -1,8 +1,8 @@
-name: Build My Angular App
+name: Build amgular app
 
 on:
-  push:
-    branches: [ main ]
+ push:
+  branches: [ main ]
 
 jobs:
   build-angular-app:
@@ -17,4 +17,4 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Build Angular App
-        run: npm run build   
+        run: npm run build
